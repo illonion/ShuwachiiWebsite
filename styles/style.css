@@ -1,0 +1,80 @@
+body {
+    background-color:antiquewhite;
+    background-image: url("images/bg.png")
+}
+
+/* Header And Footer */
+header, footer {
+    position: absolute;
+    width: 100%;
+    height: 5.5rem;
+    background: rgb(67,55,59);
+}
+
+footer {
+    bottom:0;
+    color:white;
+}
+
+/* Icons */
+
+#icons {
+    text-align:center;
+    margin-top:1.5rem;
+    display:block;
+}
+
+.icon {
+    display:inline-block;
+    margin-left:12px;
+    margin-right:12px;
+    transition-duration: 500ms;
+    position: relative;
+}
+
+.icon .icon-hover {
+    opacity: 0;
+}
+
+/* Copyright */
+#copyright {
+    position:absolute;
+    right:10px;
+    bottom:2.1rem;
+    font-size:1.2rem;
+}
+
+@media (max-width:715px) {
+    #copyright {
+        left:50%;
+        transform: translate(-30%, 0);
+        bottom:0.9rem;
+        font-size:1.2rem;
+    }
+
+    #icons {
+        margin-top:0.9rem;
+    }
+}
+
+/* Shuwachii Images */
+.shuwa-logo {
+    position: absolute;
+    top:6rem;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%, 0)
+}
+
+.shuwa-image-main {
+    max-width: 60%;
+    width:auto;
+    max-height: 65%;
+    height: auto;
+    text-align:center;
+    position: absolute;
+    bottom:5.5rem;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%, 0)
+}
