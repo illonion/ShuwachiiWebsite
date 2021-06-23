@@ -7,11 +7,12 @@ $(window).on('load', () => {
     
     /* Set all pages except the first to display nothing */
     $("#commissions").hide();
+    $("#rulesGuidelines").hide();
 
     /* Navigation between pages */
     var currentLocation = "#mainBody";
-    const homeLink = "#toMainBody";
-    const commLink = "#toCommissions";
+    const homeLink = ".toMainBody";
+    const commLink = ".toCommissions";
     const ruleLink = "#toRulesGuidelines";
     const drawLink = "#toWillWontDraws";
     const priceLink = "#toCommissionPrices";
