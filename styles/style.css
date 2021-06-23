@@ -79,3 +79,19 @@ footer {
     margin-right:-50%;
     transform: translate(-50%, 0)
 }
+
+/* Center Buttons Commission Page */
+#commissions {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-right:-50%;
+    transform:translate(-50%, -50%);
+    width:200px;
+    height:200px;
+}
+
+#commissions button {
+    width:200px;
+    height:40px;
+}
