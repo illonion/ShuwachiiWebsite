@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Gadugi, sans-serif;
+    src: url('../fonts/gadugi.ttf');
+}
+
 body {
     background-color:antiquewhite;
-    background-image: url("images/bg.png")
+    background-image: url("images/bg.png");
+    font-family: Gadugi, sans-serif;
 }
 
 /* Header And Footer */
@@ -17,7 +23,6 @@ footer {
 }
 
 /* Icons */
-
 #icons {
     text-align:center;
     margin-top:1.5rem;
