@@ -37,10 +37,6 @@ footer {
     position: relative;
 }
 
-.icon .icon-hover {
-    opacity: 0;
-}
-
 /* Copyright */
 #copyright {
     position:absolute;
